@@ -4,9 +4,10 @@ function ListOptionsAnswers({
   onSelectAnswer,
   answered,
   correctAnswerId,
+  visible = false,
 }) {
   return (
-    <div className="options-container">
+    <div className={`options-container ${visible ? "visible" : "collapsed"}`}>
       <h3>Escolha uma opção:</h3>
       <ul className="options-list">
         {options.map((option) => (
@@ -22,7 +23,7 @@ function ListOptionsAnswers({
                   : ""
               }`}
               onClick={() => onSelectAnswer(option.id)}
-              disabled={answered}
+              disabled={answered || !visible}
             >
               <div className="option-content">
                 <div className="option-name">{option.name}</div>

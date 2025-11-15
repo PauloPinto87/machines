@@ -9,6 +9,7 @@ function Question({ machines, onAnswer }) {
   const [answered, setAnswered] = useState(false);
   const [feedback, setFeedback] = useState("");
   const [usedIds, setUsedIds] = useState([]);
+  const [showOptions, setShowOptions] = useState(false);
   const initializedRef = useRef(false);
 
   const generateNewQuestion = () => {
@@ -26,6 +27,8 @@ function Question({ machines, onAnswer }) {
     setSelectedAnswer(null);
     setAnswered(false);
     setFeedback("");
+    // Esconde as opções por defeito para a nova pergunta
+    setShowOptions(false);
   };
 
   useEffect(() => {
@@ -37,7 +40,8 @@ function Question({ machines, onAnswer }) {
   }, [machines]);
 
   const handleSelectAnswer = (machineId) => {
-    if (!answered) {
+    // Só permite selecionar se as opções estiverem visíveis e ainda não foi respondido
+    if (!answered && showOptions) {
       setSelectedAnswer(machineId);
     }
   };
@@ -81,12 +85,23 @@ function Question({ machines, onAnswer }) {
 
       <ImageQuestion imageUrl={question.correctMachine.imageUrl} />
 
+      <div className="options-toggle">
+        <button
+          className="toggle-btn"
+          onClick={() => setShowOptions((s) => !s)}
+          aria-expanded={showOptions}
+        >
+          {showOptions ? "▲ Ocultar opções" : "▼ Mostrar opções"}
+        </button>
+      </div>
+
       <ListOptionsAnswers
         options={question.options}
         selectedAnswer={selectedAnswer}
         onSelectAnswer={handleSelectAnswer}
         answered={answered}
         correctAnswerId={question.correctAnswerId}
+        visible={showOptions}
       />
 
       {answered && (
