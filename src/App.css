@@ -1,14 +1,13 @@
 :root {
-  --makita-red: #E60012;
-  --makita-black: #1a1a1a;
-  --makita-light: #f5f5f5;
-  --primary-color: #E60012;
-  --primary-dark: #b80010;
-  --secondary-color: #E60012;
+  --makita-teal: #008f9e;
+  --makita-teal-light: #00a8b8;
+  --primary-color: #008f9e;
+  --primary-dark: #006b7f;
+  --secondary-color: #00a8b8;
   --success-color: #27ae60;
-  --error-color: #E60012;
+  --error-color: #008f9e;
   --bg-light: #f5f5f5;
-  --text-dark: #1a1a1a;
+  --text-dark: #008f9e;
   --border-color: #ddd;
 }
 
@@ -20,7 +19,7 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #E60012 0%, #1a1a1a 100%);
+  background: linear-gradient(135deg, #008f9e 0%, #006b7f 100%);
   min-height: 100vh;
   padding: 10px;
   margin: 0;
@@ -43,7 +42,7 @@ body {
   text-align: center;
   color: white;
   margin-bottom: 10px;
-  background: rgba(230, 0, 18, 0.9);
+  background: rgba(0, 143, 158, 0.95);
   padding: 10px 15px;
   border-radius: 10px;
   flex-shrink: 0;
@@ -185,14 +184,14 @@ main {
 }
 
 .option-btn:hover:not(:disabled) {
-  border-color: var(--makita-red);
-  background: rgba(230, 0, 18, 0.05);
+  border-color: var(--makita-teal);
+  background: rgba(0, 143, 158, 0.05);
   transform: translateX(5px);
 }
 
 .option-btn.selected {
-  border-color: var(--makita-red);
-  background: rgba(230, 0, 18, 0.1);
+  border-color: var(--makita-teal);
+  background: rgba(0, 143, 158, 0.1);
   font-weight: bold;
 }
 
@@ -223,7 +222,7 @@ main {
 }
 
 .option-ref {
-  color: var(--makita-red);
+  color: var(--makita-teal);
   font-size: 0.8em;
   font-weight: 600;
 }
@@ -244,14 +243,14 @@ main {
 }
 
 .submit-btn {
-  background: var(--makita-red);
+  background: var(--makita-teal);
   color: white;
 }
 
 .submit-btn:hover:not(:disabled) {
-  background: #b80010;
+  background: #006b7f;
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(230, 0, 18, 0.4);
+  box-shadow: 0 5px 15px rgba(0, 143, 158, 0.4);
 }
 
 .submit-btn:disabled {
@@ -261,14 +260,14 @@ main {
 }
 
 .next-btn {
-  background: var(--makita-red);
+  background: var(--makita-teal);
   color: white;
 }
 
 .next-btn:hover:not(:disabled) {
-  background: #b80010;
+  background: #006b7f;
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(230, 0, 18, 0.4);
+  box-shadow: 0 5px 15px rgba(0, 143, 158, 0.4);
 }
 
 .reset-btn {
