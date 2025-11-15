@@ -31,7 +31,7 @@ export const machines = [
   },
   {
     id: 5,
-    name: "Martelo combinado",
+    name: "Martelo perfurador",
     reference: "HR2470",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/HR2470_C2L0.jpg",
@@ -45,7 +45,7 @@ export const machines = [
   },
   {
     id: 7,
-    name: "Berbequim aparafusador",
+    name: "Aparafusadora",
     reference: "DF002G",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/DF002G_C2L0.jpg",
@@ -73,7 +73,7 @@ export const machines = [
   },
   {
     id: 11,
-    name: "Berbequim de coluna",
+    name: "Furadeira de coluna",
     reference: "DP4003",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/DP4003_C2L0.jpg",
@@ -94,21 +94,21 @@ export const machines = [
   },
   {
     id: 14,
-    name: "Chave de impacto grande",
+    name: "Chave de impacto",
     reference: "TW007G",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/TW007G_C2L0.jpg",
   },
   {
     id: 15,
-    name: "Serra de vaivém profissional",
+    name: "Navalha alternada",
     reference: "DJV186",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/DJV186_C2L0.jpg",
   },
   {
     id: 16,
-    name: "Tupia manual pequena",
+    name: "Tupia",
     reference: "RP1111C",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/RP1111C_C2L0.jpg",
@@ -164,28 +164,28 @@ export const machines = [
   },
   {
     id: 24,
-    name: "Cortador de plástico",
+    name: "Cortador de espuma",
     reference: "UC4050A",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/UC4050A_C2L0.jpg",
   },
   {
     id: 25,
-    name: "Máquina de lixar fita",
+    name: "Lixadora de fita",
     reference: "9403",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/9403_C2L0.jpg",
   },
   {
     id: 26,
-    name: "Aparador de relva elétrico",
+    name: "Aparador de relva",
     reference: "UR003G",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/UR003G_C2L0.jpg",
   },
   {
     id: 27,
-    name: "Sopradora de ar comprimido",
+    name: "Soprador",
     reference: "AF506",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/AF506_C2L0.jpg",
