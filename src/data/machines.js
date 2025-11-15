@@ -10,7 +10,7 @@ export const machines = [
   },
   {
     id: 2,
-    name: "Martelo perfurador (chave de impacto)",
+    name: "Chave de impacto",
     reference: "TW001G",
     imageUrl:
       "https://nl.makitamedia.com/afbeeldingen/100_Makita/102_machines/102_1_product/JPG_product/TW001G_C1L0.jpg",
@@ -31,7 +31,7 @@ export const machines = [
   },
   {
     id: 5,
-    name: "Martelo perfurador",
+    name: "Martelo combinado",
     reference: "HR2470",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/HR2470_C2L0.jpg",
@@ -45,72 +45,149 @@ export const machines = [
   },
   {
     id: 7,
-    name: "Berbequim de parafusos sem fios",
-    reference: "DCD777C2",
+    name: "Berbequim aparafusador",
+    reference: "DF002G",
     imageUrl:
-      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/DCD777C2_C2L0.jpg",
+      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/DF002G_C2L0.jpg",
   },
   {
     id: 8,
-    name: "Navalha alternada sem fios",
-    reference: "DJV180Z",
+    name: "Serra de vaivém",
+    reference: "JV0600K",
     imageUrl:
-      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/DJV180Z_C2L0.jpg",
+      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/JV0600K_C2L0.jpg",
   },
   {
     id: 9,
-    name: "Plaina elétrica",
-    reference: "KP0810",
+    name: "Cortador de plástico",
+    reference: "UC4030A",
     imageUrl:
-      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/KP0810_C2L0.jpg",
+      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/UC4030A_C2L0.jpg",
   },
   {
     id: 10,
-    name: "Fresadora",
-    reference: "RP1800F",
+    name: "Máquina de polir",
+    reference: "PV7000C",
     imageUrl:
-      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/RP1800F_C2L0.jpg",
+      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/PV7000C_C2L0.jpg",
   },
   {
     id: 11,
-    name: "Rebarbadora de bancada",
-    reference: "GB602",
+    name: "Lixadora de características delta",
+    reference: "KFM2500B",
     imageUrl:
-      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/GB602_C2L0.jpg",
+      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/KFM2500B_C2L0.jpg",
   },
   {
     id: 12,
-    name: "Tupia",
-    reference: "3612",
+    name: "Chave de vaso",
+    reference: "TW0350",
     imageUrl:
-      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/3612_C2L0.jpg",
+      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/TW0350_C2L0.jpg",
   },
   {
     id: 13,
-    name: "Lixadora de correia",
-    reference: "9404",
+    name: "Perfurador pneumático",
+    reference: "PH7010C",
     imageUrl:
-      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/9404_C2L0.jpg",
+      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/PH7010C_C2L0.jpg",
   },
   {
     id: 14,
-    name: "Aparafusadora angular",
-    reference: "TL061D",
+    name: "Pistola de cola sem fios",
+    reference: "CG100DZA",
     imageUrl:
-      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/TL061D_C2L0.jpg",
+      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/CG100DZA_C2L0.jpg",
   },
   {
     id: 15,
-    name: "Cortadora de mosaicos",
-    reference: "4100NH",
+    name: "Broca de impacto",
+    reference: "HP2050F",
     imageUrl:
-      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/4100NH_C2L0.jpg",
+      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/HP2050F_C2L0.jpg",
   },
   {
     id: 16,
-    name: "Aparafusadora elétrica",
-    reference: "DFS452Z",
+    name: "Serra de fita para madeira",
+    reference: "2107F",
     imageUrl:
-      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/DFS452Z_C2L0.jpg",
+      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/2107F_C2L0.jpg",
+  },
+  {
+    id: 17,
+    name: "Esquadrejador",
+    reference: "2712",
+    imageUrl:
+      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/2712_C2L0.jpg",
+  },
+  {
+    id: 18,
+    name: "Desempenadeira",
+    reference: "KP312",
+    imageUrl:
+      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/KP312_C2L0.jpg",
+  },
+  {
+    id: 19,
+    name: "Serra de mão elétrica",
+    reference: "LC06Z",
+    imageUrl:
+      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/LC06Z_C2L0.jpg",
+  },
+  {
+    id: 20,
+    name: "Moto de corte",
+    reference: "DCS3410T",
+    imageUrl:
+      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/DCS3410T_C2L0.jpg",
+  },
+  {
+    id: 21,
+    name: "Sopradora de folhas",
+    reference: "UB001GZ",
+    imageUrl:
+      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/UB001GZ_C2L0.jpg",
+  },
+  {
+    id: 22,
+    name: "Aparador de relva sem fios",
+    reference: "DUR181Z",
+    imageUrl:
+      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/DUR181Z_C2L0.jpg",
+  },
+  {
+    id: 23,
+    name: "Tesoura de jardinagem",
+    reference: "DUP361Z",
+    imageUrl:
+      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/DUP361Z_C2L0.jpg",
+  },
+  {
+    id: 24,
+    name: "Motosserra sem fios",
+    reference: "DUC307Z",
+    imageUrl:
+      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/DUC307Z_C2L0.jpg",
+  },
+  {
+    id: 25,
+    name: "Furadeira de coluna",
+    reference: "DP4003",
+    imageUrl:
+      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/DP4003_C2L0.jpg",
+  },
+  {
+    id: 26,
+    name: "Tornio para madeira",
+    reference: "2500",
+    imageUrl:
+      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/2500_C2L0.jpg",
+  },
+  {
+    id: 27,
+    name: "Ventilador industrial",
+    reference: "UF001GZ",
+    imageUrl:
+      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/UF001GZ_C2L0.jpg",
   },
 ];
