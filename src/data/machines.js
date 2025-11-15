@@ -31,63 +31,63 @@ export const machines = [
   },
   {
     id: 5,
-    name: "Martelo perfurador",
+    name: "Martelo combinado",
     reference: "HR2470",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/HR2470_C2L0.jpg",
   },
   {
     id: 6,
-    name: "Lixadora orbital",
+    name: "Lixadora rotorbital",
     reference: "BO5041",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/BO5041_C2L0.jpg",
   },
   {
     id: 7,
-    name: "Aparafusadora",
+    name: "Berbequim aparafusador",
     reference: "DF002G",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/DF002G_C2L0.jpg",
   },
   {
     id: 8,
-    name: "Serra de corte de bancada",
+    name: "Serra de mesa",
     reference: "2712",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/2712_C2L0.jpg",
   },
   {
     id: 9,
-    name: "Lixadora de mão",
+    name: "Lixadora rotorbital",
     reference: "BO5030",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/BO5030_C2L0.jpg",
   },
   {
     id: 10,
-    name: "Esmeriladora angular pequena",
+    name: "Mini-rebarbadora",
     reference: "GA5030R",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/GA5030R_C2L0.jpg",
   },
   {
     id: 11,
-    name: "Furadeira de coluna",
+    name: "Berbequim",
     reference: "DP4003",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/DP4003_C2L0.jpg",
   },
   {
     id: 12,
-    name: "Aparafusadora de parafusos",
+    name: "Aparafusadora",
     reference: "DFS451",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/DFS451_C2L0.jpg",
   },
   {
     id: 13,
-    name: "Broca de percussão",
+    name: "Martelo ligeiro",
     reference: "DHR182",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/DHR182_C2L0.jpg",
@@ -101,7 +101,7 @@ export const machines = [
   },
   {
     id: 15,
-    name: "Navalha alternada",
+    name: "Serra tico-tico",
     reference: "DJV186",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/DJV186_C2L0.jpg",
@@ -115,56 +115,49 @@ export const machines = [
   },
   {
     id: 17,
-    name: "Lixadora de disco",
+    name: "Lixadora orbital",
     reference: "DBO480",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/DBO480_C2L0.jpg",
   },
   {
     id: 18,
-    name: "Aspirador de pó industrial",
+    name: "Aspirador de pó",
     reference: "VC3011L",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/VC3011L_C2L0.jpg",
   },
   {
     id: 19,
-    name: "Motosserra elétrica",
+    name: "Motosserra",
     reference: "UC025G",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/UC025G_C2L0.jpg",
   },
   {
     id: 20,
-    name: "Desempenadeira de madeira",
+    name: "Motosserra",
     reference: "KP312S",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/KP312S_C2L0.jpg",
   },
   {
     id: 21,
-    name: "Furadeira de impacto sem fios",
+    name: "Berbequim combinado",
     reference: "DHP484",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/DHP484_C2L0.jpg",
   },
   {
-    id: 22,
-    name: "Rebarbadora de bancada",
-    reference: "GB602",
-    imageUrl:
-      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/GB602_C2L0.jpg",
-  },
-  {
     id: 23,
-    name: "Serra de fita para madeira",
+    name: "Serra de fita portátil",
     reference: "2107F",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/2107F_C2L0.jpg",
   },
   {
     id: 24,
-    name: "Cortador de espuma",
+    name: "Motosserra",
     reference: "UC4050A",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/UC4050A_C2L0.jpg",
@@ -178,16 +171,16 @@ export const machines = [
   },
   {
     id: 26,
-    name: "Aparador de relva",
+    name: "Roçadora ",
     reference: "UR003G",
     imageUrl:
       "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/UR003G_C2L0.jpg",
   },
   {
     id: 27,
-    name: "Soprador",
-    reference: "AF506",
+    name: "Corta-relvas",
+    reference: "LM002G",
     imageUrl:
-      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/AF506_C2L0.jpg",
+      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/LM002G_C2L0.jpg",
   },
 ];
