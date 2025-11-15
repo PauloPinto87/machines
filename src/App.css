@@ -174,10 +174,6 @@ main {
   overflow-y: auto;
 }
 
-.options-list li {
-  overflow: hidden; /* permite clip do contorno quando selecionado */
-}
-
 .option-btn {
   width: 100%;
   padding: 12px;
@@ -192,9 +188,9 @@ main {
 }
 
 .option-btn.selected {
-  transform: translateX(6px); /* desloca para a direita */
-  outline: 4px solid var(--text-dark);
-  outline-offset: -6px; /* aproxima o outline do botão */
+  border-color: var(--makita-teal);
+  background: rgba(0, 143, 158, 0.15);
+  box-shadow: 0 0 0 3px rgba(0, 143, 158, 0.2);
 }
 
 .option-btn:hover:not(:disabled) {
@@ -409,14 +405,16 @@ main {
 }
 
 .toggle-btn {
-  background: transparent;
-  border: 1px dashed rgba(0, 0, 0, 0.15);
+  background: rgba(0, 143, 158, 0.1);
+  border: 2px solid var(--makita-teal);
+  color: var(--text-dark);
   padding: 6px 10px;
   border-radius: 6px;
   cursor: pointer;
   font-weight: bold;
+  transition: all 0.2s ease;
 }
 
 .toggle-btn:hover {
-  background: rgba(0, 0, 0, 0.03);
+  background: rgba(0, 143, 158, 0.2);
 }
