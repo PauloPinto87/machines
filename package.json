@@ -1,6 +1,6 @@
 {
   "name": "machines",
-  "homepage": "https://paulopinto87.github.io/",
+  "homepage": "https://paulopinto87.github.io/machines",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r git@github.com:PauloPinto87/machines.git"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
