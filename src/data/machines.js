@@ -13,4 +13,10 @@ export const machines = [
     reference: "TW001G",
     imageUrl: "https://nl.makitamedia.com/afbeeldingen/100_Makita/102_machines/102_1_product/JPG_product/TW001G_C1L0.jpg",
     },
+    {
+    id: 3,
+    name: "Martelo perfurador",
+    reference: "HR2630",
+    imageUrl: "https://www.makita.pt/images/products/HR2630.jpg",
+  },
 ];
