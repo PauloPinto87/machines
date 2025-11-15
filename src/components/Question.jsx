@@ -8,10 +8,20 @@ function Question({ machines, onAnswer }) {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [answered, setAnswered] = useState(false);
   const [feedback, setFeedback] = useState("");
+  const [usedIds, setUsedIds] = useState([]);
   const initializedRef = useRef(false);
 
   const generateNewQuestion = () => {
-    const newQuestion = generateQuestion(machines);
+    // Tenta gerar usando a lista de IDs já usadas
+    let newQuestion = generateQuestion(machines, usedIds);
+
+    // Se não houver perguntas disponíveis (todas usadas), reinicia o controle
+    // de usados e gera novamente sem exclusão (mantendo o score)
+    if (!newQuestion) {
+      setUsedIds([]);
+      newQuestion = generateQuestion(machines, []);
+    }
+
     setQuestion(newQuestion);
     setSelectedAnswer(null);
     setAnswered(false);
@@ -49,6 +59,12 @@ function Question({ machines, onAnswer }) {
     }
 
     onAnswer(isCorrect);
+    // Marca a questão atual como feita (não repetir)
+    setUsedIds((prev) => {
+      if (!question) return prev;
+      if (prev.includes(question.correctAnswerId)) return prev;
+      return [...prev, question.correctAnswerId];
+    });
   };
 
   const handleNextQuestion = () => {

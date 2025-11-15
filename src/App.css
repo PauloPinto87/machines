@@ -375,9 +375,10 @@ main {
   }
 
   .score-board {
-    flex-direction: column;
+    flex-direction: row;
     gap: 8px;
     font-size: 0.85em;
+    flex-wrap: nowrap;
   }
 
   .submit-btn,

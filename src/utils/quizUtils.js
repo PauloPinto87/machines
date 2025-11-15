@@ -11,12 +11,20 @@ export const shuffleArray = (array) => {
 };
 
 // Gera uma pergunta aleatória com opções
-export const generateQuestion = (allMachines) => {
-  // Seleciona máquina correta aleatoriamente
-  const correctMachine =
-    allMachines[Math.floor(Math.random() * allMachines.length)];
+export const generateQuestion = (allMachines, excludeIds = []) => {
+  // Filtra máquinas disponíveis que não estão na lista de exclusão
+  const available = allMachines.filter((m) => !excludeIds.includes(m.id));
 
-  // Seleciona 2 máquinas incorretas aleatoriamente
+  // Se não houver máquinas disponíveis, retorna null para indicar que
+  // o chamador deve resetar a lista de usadas
+  if (available.length === 0) return null;
+
+  // Seleciona máquina correta aleatoriamente entre as disponíveis
+  const correctMachine =
+    available[Math.floor(Math.random() * available.length)];
+
+  // Seleciona 2 máquinas incorretas aleatoriamente (a partir do total,
+  // ignorando apenas a correta atual)
   const incorrectMachines = allMachines
     .filter((m) => m.id !== correctMachine.id)
     .sort(() => Math.random() - 0.5)
