@@ -19,4 +19,10 @@ export const machines = [
     reference: "HS7601",
     imageUrl: "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/HS7601_C2L0.jpg",
   },
+  {
+    id: 4,
+    name: "Rebarbadora angula",
+    reference: "DGA513",
+    imageUrl: "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/DGA513_C2L0.jpg",
+  },
 ];
