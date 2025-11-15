@@ -1,12 +1,15 @@
 :root {
-  --primary-color: #e74c3c;
-  --primary-dark: #c0392b;
-  --secondary-color: #3498db;
+  --makita-red: #E60012;
+  --makita-black: #1a1a1a;
+  --makita-light: #f5f5f5;
+  --primary-color: #E60012;
+  --primary-dark: #b80010;
+  --secondary-color: #E60012;
   --success-color: #27ae60;
-  --error-color: #e74c3c;
+  --error-color: #E60012;
   --bg-light: #f5f5f5;
-  --text-dark: #2c3e50;
-  --border-color: #bdc3c7;
+  --text-dark: #1a1a1a;
+  --border-color: #ddd;
 }
 
 * {
@@ -17,15 +20,19 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #E60012 0%, #1a1a1a 100%);
   min-height: 100vh;
   padding: 10px;
   margin: 0;
   overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .app-container {
   max-width: 800px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -36,17 +43,18 @@ body {
   text-align: center;
   color: white;
   margin-bottom: 10px;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(230, 0, 18, 0.9);
   padding: 10px 15px;
   border-radius: 10px;
-  backdrop-filter: blur(10px);
   flex-shrink: 0;
 }
 
 .app-header h1 {
   font-size: 1.8em;
   margin-bottom: 8px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  letter-spacing: 0.5px;
 }
 
 .score-board {
@@ -60,14 +68,15 @@ body {
 }
 
 .score-board span {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.25);
   padding: 5px 12px;
   border-radius: 20px;
+  color: white;
 }
 
 .percentage {
   font-size: 0.85em;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 main {
@@ -79,6 +88,7 @@ main {
   flex: 1;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .question-container {
@@ -175,14 +185,14 @@ main {
 }
 
 .option-btn:hover:not(:disabled) {
-  border-color: var(--secondary-color);
-  background: rgba(52, 152, 219, 0.05);
+  border-color: var(--makita-red);
+  background: rgba(230, 0, 18, 0.05);
   transform: translateX(5px);
 }
 
 .option-btn.selected {
-  border-color: var(--secondary-color);
-  background: rgba(52, 152, 219, 0.1);
+  border-color: var(--makita-red);
+  background: rgba(230, 0, 18, 0.1);
   font-weight: bold;
 }
 
@@ -213,7 +223,7 @@ main {
 }
 
 .option-ref {
-  color: var(--secondary-color);
+  color: var(--makita-red);
   font-size: 0.8em;
   font-weight: 600;
 }
@@ -234,14 +244,14 @@ main {
 }
 
 .submit-btn {
-  background: var(--secondary-color);
+  background: var(--makita-red);
   color: white;
 }
 
 .submit-btn:hover:not(:disabled) {
-  background: #2980b9;
+  background: #b80010;
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+  box-shadow: 0 5px 15px rgba(230, 0, 18, 0.4);
 }
 
 .submit-btn:disabled {
@@ -251,14 +261,14 @@ main {
 }
 
 .next-btn {
-  background: var(--success-color);
+  background: var(--makita-red);
   color: white;
 }
 
-.next-btn:hover {
-  background: #229954;
+.next-btn:hover:not(:disabled) {
+  background: #b80010;
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(39, 174, 96, 0.3);
+  box-shadow: 0 5px 15px rgba(230, 0, 18, 0.4);
 }
 
 .reset-btn {

@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r git@github.com:PauloPinto87/machines.git"
+    "deploy": "node -e \"const token = process.env.GH_TOKEN; if(!token) throw new Error('GH_TOKEN not set'); require('child_process').execSync(`gh-pages -d dist -r https://${token}@github.com/PauloPinto87/machines.git`, {stdio: 'inherit'})\""
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
