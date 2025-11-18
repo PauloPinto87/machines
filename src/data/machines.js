@@ -48,7 +48,7 @@ export const machines = [
     reference: "HR006GZ",
     name: "Martelo combinado",
     imageUrl:
-      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/HR006G_C2L0.jpg",
+      "https://fi.makitamedia.com/images/3_Makita/301_machines/3011_a_GS1/30120_JPG_zoom/HM002G_C2L0.jpg",
   },
   {
     id: 8,
