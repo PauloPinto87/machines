@@ -56,5 +56,12 @@ export const machines = [
     name: "Martelo combinado",
     imageUrl:
       "https://makita.com.sg/wp-content/uploads/2025/04/HR007G-300x283.jpg",
+  },
+  {
+    id: 9,
+    reference: "HM002GZ03",
+    name: "Martelo demolidor",
+    imageUrl:
+      "https://makita.com.sg/wp-content/uploads/2025/04/HR008G-300x283.jpg",
   }
 ];
