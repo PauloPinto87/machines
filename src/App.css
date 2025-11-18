@@ -354,13 +354,22 @@ main {
   }
 
   .image-container {
-    height: 140px;
-    margin: 8px 0;
-    padding: 8px;
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+    background: var(--bg-light);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .question-image {
-    max-height: 220px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   }
 
   .options-container {
